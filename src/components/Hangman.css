@@ -1,0 +1,25 @@
+.Hangman {
+  width: 80%;
+  margin-top: 50px;
+}
+
+
+
+.SpinnerOverlay__div {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  color: '#FFF';
+  background: black;
+  z-index: 1110;
+  opacity: 0.5;
+}
+.Spinner {
+  z-index: 1111;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+}
